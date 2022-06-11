@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="HomeStyle.css">
+</head>
+<body>
+    <div id="social">
+        <img id="logo" src="estunav.png" alt="estuImage" style="height: 80px; width:50%;">
+    </div>
+
+   
+
+   <div id="container">
+       
+        <section>
+           
+            <nav>
+                
+              <ul class="menu">
+                  <li><a href="Home.html" >HOME</a></li>
+                  <li><a href="University.html" target="_blank">UNIVERSITY</a></li>
+                  <li><a href="Academics.html" target="_blank">ACADEMICS</a></li>
+                 
+                  <li><a href="Research.html" target="_blank">RESEARCH</a></li>
+                  <li><a href="CampusLife.html" target="_blank">CAMPUS LİFE</a></li>
+                  <li><a href="Students.html" class="students">STUDENTS</a>
+                    <ul class="dropdawn">
+                        <li><a href="StudentLogin.html">Student Login</a></li>
+                        
+                        <li><a href="Documents.html">Documents</a></li>
+                       
+                    </ul>
+            </li>
+              </ul>
+            </nav>
+
+            <main>
+                <div><img src="school.jpg" alt="" class="school"></div>
+                <div><h2>Duyurular</h2></div>
+                
+                <div class="icerik">
+                   
+                    <img src="ogrenci2.jpg" alt="resim" class="rsm">
+                    <div><h5>Ukrayna'dan Eskişehir Teknik Üniversitesi'ne Yatay Geçiş ve Özel Öğrencilik</h5></div>
+                    <p class="icerikText">Ukraynadan gelen öğrenciler için özel öğrencilik fırsatı vardır.Yatay geçiş ve özel öğrencilik durumu hakkında detaylı bilgi için;</p>
+                    <a href="https://www.eskisehir.edu.tr/tr/Duyuru/Detay/ukraynadan-eskisehir-teknik-universitesine-yatay-gecis-ve-ozel-ogrencilik-">Duyuru Metni</a>
+                    
+                </div>
+
+                <div class="icerik">
+                   
+                    <img src="estuOkul.jpg" alt="resim" class="rsm">
+                   <div> <h5>Ders iceriklerinde güncelleme</h5></div>
+                    <p class="icerikText">Bazı bölümlerin ders içeriklerinde önemsiz ve işe yaramayan konuların olması sebebiyle ders içeriklerinde güncelleme olup gereksiz dersler çıkarılmıs ve yeni dersler eklenmistir. <br> Lütfen kontrol etmeyi unutmayınız </p>
+                    
+                </div>
+            </main>
+        </section>
+        <footer>Tum hakları saklıdır &copy; | 2022 , created by Ahmet DAYI</footer>
+   </div>
+    
+</body>
+</html>
